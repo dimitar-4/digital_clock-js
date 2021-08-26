@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+body {
+    background: rgb(69, 88, 79);
+}
+
+#clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    min-width: 250px;
+    text-align: center;
+    color: rgb(212, 228, 231);
+    border: 2px solid rgb(212, 228, 231);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;
+}
+
+.day-time,
+.day-part {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 2rem;
+}
+
+.day-time {
+    font-size: 3rem;
+}
